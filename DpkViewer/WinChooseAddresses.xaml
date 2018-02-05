@@ -1,0 +1,51 @@
+﻿<Window x:Class="DpkViewer.WinChooseAddresses"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:DpkViewer"
+        Title="Выбор адресов" Height="300" Width="225" ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterOwner" WindowStyle="ToolWindow" MinWidth="225" MinHeight="300">
+    <Window.Resources>
+        <Style x:Key="toolBarIconStyle" TargetType="Image">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="35"/>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="loc:WinChooseAddressesCommands.AcceptParametres" Executed="AcceptParametres" />
+        <CommandBinding Command="loc:WinChooseAddressesCommands.CancelParametres" Executed="CancelParametres" />
+        <CommandBinding Command="loc:WinChooseAddressesCommands.ChooseAllAddresses" Executed="ChooseAllAddresses" />
+        <CommandBinding Command="loc:WinChooseAddressesCommands.ResetAllAddresses" Executed="ResetAllAddresses" />
+    </Window.CommandBindings>
+    <Grid>
+        <ToolBarTray Margin="0,3,0,0" Orientation="Horizontal" VerticalAlignment="Top">
+            <ToolBar>
+                <Button Command="loc:WinChooseAddressesCommands.ChooseAllAddresses"  ToolTip="Выбрать всё" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/Other/ChooseAll.ico" />
+                    </StackPanel>
+                </Button>
+                <Button Command="loc:WinChooseAddressesCommands.ResetAllAddresses" ToolTip="Сбросить всё" HorizontalAlignment="Left" VerticalAlignment="Top">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/Other/ClearAll.ico" />
+                    </StackPanel>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <GroupBox Header="Адреса:" Margin="12,52,12,53">
+            <ScrollViewer CanContentScroll="True" VerticalAlignment="Top">
+                <StackPanel Name="spAddresses"/>
+            </ScrollViewer>
+        </GroupBox>
+        <Button Command="loc:WinChooseAddressesCommands.CancelParametres" Margin="0,0,12,8" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/DpkViewer;component/Resources/Other/Cancel.ico" />
+                <Label Content="Закрыть" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+        <Button Command="loc:WinChooseAddressesCommands.AcceptParametres" Margin="12,0,0,8" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/DpkViewer;component/Resources/Other/SetValue.ico" />
+                <Label Content="Выбрать" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

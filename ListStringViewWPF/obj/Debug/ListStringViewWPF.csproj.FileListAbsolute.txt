@@ -1,0 +1,46 @@
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\bin\Debug\ListStringViewWPF.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\bin\Debug\ListStringViewWPF.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringView.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringView.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF_MarkupCompile.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.g.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.Properties.Resources.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\GenerateResource.read.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\GenerateResource.write.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\bin\Debug\ListStringViewWPF.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\bin\Debug\ListStringViewWPF.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringView.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringView.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF_MarkupCompile.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.g.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.Properties.Resources.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\bin\Debug\ListStringViewWPF.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\bin\Debug\ListStringViewWPF.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringView.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringView.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF_MarkupCompile.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.g.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.Properties.Resources.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListStringViewWPF\obj\Debug\ListStringViewWPF.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\bin\Debug\ListStringViewWPF.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\bin\Debug\ListStringViewWPF.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringView.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringView.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringViewWPF_MarkupCompile.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringViewWPF.g.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringViewWPF.Properties.Resources.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringViewWPF.csproj.GenerateResource.Cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringViewWPF.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListStringViewWPF\obj\Debug\ListStringViewWPF.pdb

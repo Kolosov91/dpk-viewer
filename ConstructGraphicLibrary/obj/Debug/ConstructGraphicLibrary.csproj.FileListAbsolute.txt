@@ -1,0 +1,62 @@
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary_MarkupCompile.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.g.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.Properties.Resources.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary_MarkupCompile.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.g.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.Properties.Resources.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary_MarkupCompile.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.g.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.Properties.Resources.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\AutoScaleListGraphic.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\HorizontalTimeScrollBar.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\MultiLayerGraphic.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary_MarkupCompile.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.g.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.Properties.Resources.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.csproj.GenerateResource.Cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ConstructGraphicLibrary\obj\Debug\ConstructGraphicLibrary.pdb

@@ -1,0 +1,111 @@
+﻿<Window x:Class="DpkViewer.WinGraphicalAnalisys"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:DpkViewer"
+        xmlns:converters="clr-namespace:DpkViewer.Converters"
+        Title="Побитный графический анализ" Height="477" Width="888" Topmost="False" WindowStartupLocation="CenterOwner" Icon="/DpkViewer;component/Resources/MainMenu/Operations/GraphicalAnalisys.ico" xmlns:my1="clr-namespace:ListStringViewWPF;assembly=ListStringViewWPF" xmlns:my="clr-namespace:ConstructGraphicLibrary;assembly=ConstructGraphicLibrary">
+    <Window.Resources>
+        <converters:TimeMarkConverter x:Key="TimeMarkConverter"/>
+        <converters:TimeSpanConverter x:Key="TimeSpanConverter"/>
+        <DataTemplate x:Key="TimeMarkDataTemplate">
+            <TextBlock Text="{Binding Converter={StaticResource TimeMarkConverter}}"/>
+        </DataTemplate>
+        <Style x:Key="buttonStyle" TargetType="RepeatButton">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="35"/>
+        </Style>
+        <Style x:Key="buttonSimpleStyle" TargetType="Button">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="35"/>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.ScaleUpTimeInterval" Executed="ScaleUpTimeInterval"/>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.ScaleDownTimeInterval" Executed="ScaleDownTimeInterval"/>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.AddMark" Executed="AddMark"/>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.ChooseActiveMark" Executed="ChooseActiveMark" />
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.ShowActiveMark" Executed="ShowActiveMark" CanExecute="ShowActiveMarkCanExecute" />
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.RemoveActiveMark" Executed="RemoveActiveMark"/>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.ShowMarkInterval" Executed="ShowMarkInterval" CanExecute="ShowMarkIntervalCanExecute" />
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.AddGraphic" Executed="AddGraphic"/>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.RemoveGraphic" Executed="RemoveGraphic" CanExecute="RemoveGraphicCanExecute" />
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.SetActiveGraphic"  Executed="SetActiveGraphic"/>
+        <CommandBinding Command="loc:GraphicalAnalisysCommands.ResetInterval" Executed="ResetInterval"/>
+    </Window.CommandBindings>       
+    <Grid>
+        <my:HorizontalTimeScrollBar Margin="12,0,12,12" Name="horizontalTimeScrollBar" VerticalAlignment="Bottom" ScrolledEvent="horizontalTimeScrollBar_ScrolledEvent" Height="31" />
+        <GroupBox Header="Временной интервал" HorizontalAlignment="Left" Width="126" Margin="601,12,0,0" Height="143" VerticalAlignment="Top">
+            <Grid>
+                <RepeatButton Command="loc:GraphicalAnalisysCommands.ScaleDownTimeInterval" ToolTip="Уменьшить интервал" Style="{StaticResource buttonStyle}" Margin="15,71,0,0" HorizontalAlignment="Left" Width="83" Height="35" VerticalAlignment="Top">
+                    <Image Source="/DpkViewer;component/Resources/Other/Minus.ico" />
+                </RepeatButton>
+                <TextBlock Name="textBlockInterval" Text="{Binding ElementName=horizontalTimeScrollBar, Path=VisibilityTimeInterval, Converter={StaticResource TimeSpanConverter}}"
+                           Margin="15,50,16,0"  FontFamily="Courier New" FontWeight="Bold" TextAlignment="Center" Height="16" VerticalAlignment="Top" />
+                <RepeatButton Command="loc:GraphicalAnalisysCommands.ScaleUpTimeInterval" ToolTip="Увеличить интервал" Style="{StaticResource buttonStyle}" Margin="15,5,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="83">
+                    <Image Source="/DpkViewer;component/Resources/Other/Plus.ico" />
+                </RepeatButton>
+            </Grid>
+        </GroupBox>
+<!--/////////////////////////////////////////////-->
+        <GroupBox Header="Измерение временного интервала между метками"  HorizontalAlignment="Left" Margin="293,12,0,0"  Width="292" Height="143" VerticalAlignment="Top">
+            <Grid>
+                <TextBlock Height="16" Margin="6,9,0,0" Text="Начальная метка:" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96" />
+                <TextBlock Height="16" Margin="6,86,0,0" Text="Конечная метка:" VerticalAlignment="Top" HorizontalAlignment="Left" Width="96" />
+                        <ComboBox   Margin="108,82,0,0" Name="comboBoxMarkEnd"    
+                                    FontSize="10" Height="27" VerticalAlignment="Top" 
+                                    HorizontalAlignment="Left" Width="161" 
+                                    ItemTemplate="{StaticResource TimeMarkDataTemplate}" IsReadOnly="True" SelectionChanged="comboBoxMark_SelectionChanged" />
+                <ComboBox Margin="108,5,0,0" Name="comboBoxMarkBegin" FontSize="10" 
+                          Height="27" VerticalAlignment="Top" HorizontalAlignment="Left" 
+                          Width="161" ItemTemplate="{StaticResource TimeMarkDataTemplate}" SelectionChanged="comboBoxMark_SelectionChanged" />
+                <TextBlock Margin="108,49,0,0" Text="Интервал:" HorizontalAlignment="Left" Width="56" Height="21" VerticalAlignment="Top" />
+                        <TextBlock Name="textBlockIntervalValue" Margin="169,51,0,0" Text="00:00:00:000" FontFamily="Courier New" FontWeight="Bold" HorizontalAlignment="Left" Width="82" Height="22" VerticalAlignment="Top" />
+                <Button Command="loc:GraphicalAnalisysCommands.ShowMarkInterval" Style="{StaticResource buttonSimpleStyle}" Margin="6,39,0,0" HorizontalAlignment="Left" Width="35" Height="35" VerticalAlignment="Top">
+                            <Image Source="/DpkViewer;component/Resources/Other/SetInterval.ico" />
+                        </Button>
+
+            </Grid>
+        </GroupBox>
+                <GroupBox Header="Операции над меткой" Height="67" HorizontalAlignment="Left" Margin="12,12,0,0" VerticalAlignment="Top" Width="265">
+                    <Grid>
+                <ComboBox Margin="46,14,0,0" Name="comboBoxMarks" FontSize="10" Height="27" 
+                          VerticalAlignment="Top" HorizontalAlignment="Left" Width="161" 
+                          SelectionChanged="comboBoxMarks_SelectionChanged" Text="-Активная метка-" IsReadOnly="True" 
+                          ItemTemplate="{StaticResource TimeMarkDataTemplate}"
+                          >
+                </ComboBox>
+                    <Button Command="loc:GraphicalAnalisysCommands.ShowActiveMark" Style="{StaticResource buttonSimpleStyle}" Margin="0,9,6,0" HorizontalAlignment="Right" Width="35" Height="35" VerticalAlignment="Top">
+                            <Image Source="/DpkViewer;component/Resources/Other/Mark.ico" />
+                        </Button>
+                <Button Command="loc:GraphicalAnalisysCommands.RemoveActiveMark" Style="{StaticResource buttonSimpleStyle}" Margin="6,9,0,0" Height="35" VerticalAlignment="Top" HorizontalAlignment="Left" Width="35">
+                    <Image Source="/DpkViewer;component/Resources/Other/RemoveMark.ico" />
+                </Button>
+            </Grid>
+                </GroupBox>
+        <my:AutoScaleListGraphic Margin="12,161,12,58" Name="multiLayerGraphic_Canvas" MouseLeftButtonUp="multiLayerGraphic_Canvas_MouseLeftButtonUp" ApproximationChangedEvent="multiLayerGraphic_Canvas_ApproximationChangedEvent" />
+        
+        <GroupBox Header="Операции над графиками" Height="76" HorizontalAlignment="Left" Margin="12,79,0,0" VerticalAlignment="Top" Width="265">
+            <Grid >
+                <Button Command="loc:GraphicalAnalisysCommands.AddGraphic" Style="{StaticResource buttonSimpleStyle}" Margin="6,7,0,0" HorizontalAlignment="Left" Width="35" Height="35" VerticalAlignment="Top">
+                    <Image Source="/DpkViewer;component/Resources/Other/Interval.ico" />
+                </Button>
+                <Button Command="loc:GraphicalAnalisysCommands.RemoveGraphic" Style="{StaticResource buttonSimpleStyle}" Margin="0,7,6,0" HorizontalAlignment="Right" Width="35" Height="35" VerticalAlignment="Top">
+                    <Image Source="/DpkViewer;component/Resources/Other/Cancel.ico" />
+                </Button>
+                <ComboBox Height="29" HorizontalAlignment="Left" Margin="46,10,0,0" Name="comboBoxGraphics" VerticalAlignment="Top" Width="161" IsReadOnly="True" FontSize="10" SelectionChanged="comboBoxGraphics_SelectionChanged" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Сброс интервала" Height="67" HorizontalAlignment="Left" Margin="744,12,0,0" VerticalAlignment="Top" Width="110">
+            <Grid>
+                <Button Command="loc:GraphicalAnalisysCommands.ResetInterval" Style="{StaticResource buttonSimpleStyle}" Margin="32,7,0,0" HorizontalAlignment="Left" Width="35" Height="35" VerticalAlignment="Top">
+                    <Image Source="/DpkViewer;component/Resources/Other/Attention.ico" />
+                </Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Аппроксимация" Height="76" HorizontalAlignment="Left" Margin="744,79,0,0" VerticalAlignment="Top" Width="110">
+            <Grid>
+                <Image Height="30" HorizontalAlignment="Left" Margin="34,7,0,0" Name="imageApproximation" Stretch="Fill" VerticalAlignment="Top" Width="30" Source="/DpkViewer;component/Resources/Other/NoApproximation.ico" />
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

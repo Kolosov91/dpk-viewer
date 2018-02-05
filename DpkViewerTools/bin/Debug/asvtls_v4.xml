@@ -1,0 +1,706 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>asvtls_v4</name>
+    </assembly>
+    <members>
+        <member name="T:AsvTools.IDublicate`1">
+            <summary>
+            Предоставляет методы для создания полной копии объекта
+            </summary>
+            <typeparam name="T">тип объекта для дублирования</typeparam>
+        </member>
+        <member name="T:AsvTools.IStreamable">
+            <summary>
+            Предоставляет методы для сохранения и восстановления полной копии объекта в бинарном потоке
+            </summary>
+        </member>
+        <member name="T:AsvTools.DataByteIOManager`1">
+            <summary>
+            Предоставляет методы для сохранения и восстановления полной копии объекта в байтовом массиве
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:AsvTools.DataByteIOManager`1.GetData(System.Byte[])">
+            <summary>
+            Восстановливает объект из байтового буфера
+            </summary>
+            <param name="buf">буфер</param>
+            <returns>восстановленный объект</returns>
+        </member>
+        <member name="M:AsvTools.DataByteIOManager`1.PutData(`0)">
+            <summary>
+            Сохраняет объект в байтовом буфере
+            </summary>
+            <param name="hdw">объект</param>
+            <returns>байтовый буфер</returns>
+        </member>
+        <member name="F:AsvTools.InputLineForm1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:AsvTools.InputLineForm1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:AsvTools.InputLineForm1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:AsvTools.IConfigXML">
+            <summary>
+             Интерфейс для базового класса конфигурации
+            </summary>
+        </member>
+        <member name="T:AsvTools.AsXMLSerializable">
+            <summary>
+            Интерфейс для сериализатора используемый в классе AsXMLSerializer
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLSerializable.ReadXml(AsvTools.AsXMLItemReader)">
+            <summary>
+            Функция чтения из потока
+            </summary>
+            <param name="air">Поток чтения</param>
+        </member>
+        <member name="M:AsvTools.AsXMLSerializable.WriteXml(AsvTools.AsXMLItemWriter)">
+            <summary>
+            Функция записи в поток
+            </summary>
+            <param name="section">Поток записи</param>
+        </member>
+        <member name="T:AsvTools.AsXMLSerializer">
+            <summary>
+            Предоставляет набор методов и свойств для сериализации объектов IXmlSerializable, позволяет
+            сохранить и восстановить объект в файле
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLSerializer.#ctor">
+            <summary>
+            Конструктор класса
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLSerializer.GetErrMsg">
+            <summary>
+            Функция возвращает строку сообщения об ошибке при вызове функций записи/чтения
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AsvTools.AsXMLSerializer.SaveToFile(System.String,System.Xml.Serialization.IXmlSerializable)">
+            <summary>
+            Записывает в файл сериализованный объект
+            </summary>
+            <param name="fn">имя файла</param>
+            <param name="p">объект для сериализации</param>
+            <returns></returns>
+        </member>
+        <member name="M:AsvTools.AsXMLSerializer.LoadFromFile(System.String,System.Xml.Serialization.IXmlSerializable)">
+            <summary>
+            Читает из файла сериализованный объект
+            </summary>
+            <param name="fn">имя файла</param>
+            <param name="p">объект для восстановления</param>
+            <returns></returns>
+        </member>
+        <member name="T:AsvTools.ConfigXML`1">
+            <summary>
+            Предоставляет набор методов и свойств для создания объекта сериализуемого в файл, например параметры программы.
+            Этот файл может быть расположен как в профиле (по умолчанию), так и в любом другом месте.
+            Для перезагрузки файла используйте ResetInstance
+            </summary>
+            <typeparam name="Tc">пользовательский класс для сериализации, имеющий конструктор без параметров</typeparam>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.CreateInstance(System.String,System.String)">
+            <summary>
+            Создание экземпляра и загрузка файла с диска
+            </summary>
+            <param name="path">папка расположения файла, если null, то папка в профиле пользователя</param>
+            <param name="fn">имя файла внутри папки, если null, то имя: config.xml</param>
+            <returns>созданный объект</returns>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.CreateInstance(System.String)">
+            <summary>
+            Создание экземпляра и загрузка файла с диска
+            </summary>
+            <param name="fn">полное имя файла</param>
+            <returns>созданный объект</returns>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.Save">
+            <summary>
+            Функция сохраняет объект в файл на диске
+            </summary>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.FindCmdStrOption(System.String,System.String)">
+            <summary>
+            Проверяет наличие заданного ключа в командной строке программы. 
+            Фактически эта функция работает с любой строкой, в формате: [path] --opt1 /opt2 -opt3
+            Таким образом аргумент начинающийся со знака/ов "-" или "/" считается ключем
+            </summary>
+            <param name="str">строка для анализа</param>
+            <param name="opt">строка с именем ключа (без разделителей)</param>
+            <returns>true если ключ есть, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.GetSchema">
+            <summary>
+            Функция требуется сериализатору, пользователем не используется
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.ReadXml(System.Xml.XmlReader)">
+            <summary>
+            Чтение из потока
+            </summary>
+            <param name="reader">поток чтения</param>
+        </member>
+        <member name="M:AsvTools.ConfigXML`1.WriteXml(System.Xml.XmlWriter)">
+            <summary>
+            Запись в поток
+            </summary>
+            <param name="writer">поток для записи</param>
+        </member>
+        <member name="P:AsvTools.ConfigXML`1.IsOk">
+            <summary>
+            Признак успешной загрузки файла
+            </summary>
+        </member>
+        <member name="P:AsvTools.ConfigXML`1.Fname">
+            <summary>
+            Имя файла для сохранения/востановления
+            </summary>
+        </member>
+        <member name="T:AsvTools.AsXMLItemReader">
+            <summary>
+            Предоставляет набор методов и свойств для восстановления объектов, записанных в поток классом AsXMLItemWriter
+            Позволяет прочитать типы: uint, int, string, bool, Size, Point, Enum, а также
+            массивы uint[], int[], List (string)
+            ВНИМАНИЕ!!! Все функции этого класса вызывают исключение при ошибках!
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.#ctor(System.Xml.XmlReader)">
+            <summary>
+            Конструктор класса
+            </summary>
+            <param name="reader">Поток Xml для чтения</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.EnterToSection(System.String)">
+            <summary>
+            Входит внутрь секции во входном потоке и возвращает новый поток для ее чтения
+            </summary>
+            <param name="nm">имя секции</param>
+            <returns>поток для чтения секции</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.CloseAllSections">
+            <summary>
+            Выходит из всех вложенных секций
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.CloseSection">
+            <summary>
+            Закрывает текущую секцию (возврат на один уровень)
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadInt(System.String)">
+            <summary>
+            Читает из потока значение типа int
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadUInt(System.String)">
+            <summary>
+            Читает из потока значение типа uint
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadString(System.String)">
+            <summary>
+            Читает из потока значение типа string
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadBool(System.String)">
+            <summary>
+            Читает из потока значение типа bool
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadIntArray(System.String)">
+            <summary>
+            Читает из потока массив значений типа int[]
+            </summary>
+            <param name="nm">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadUIntArray(System.String)">
+            <summary>
+            Читает из потока массив значений типа uint[]
+            </summary>
+            <param name="nm">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadStringArray(System.String)">
+            <summary>
+            Читает из потока массив значений типа List(string)
+            </summary>
+            <param name="nm">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadSize(System.String)">
+            <summary>
+            Читает из потока значение типа System.Drawing.Size
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadPoint(System.String)">
+            <summary>
+            Читает из потока значение типа System.Drawing.Point
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemReader.ReadEnum``1(System.String)">
+            <summary>
+            Читает из потока значение типа Enum
+            </summary>
+            <param name="v_name">имя поля в потоке</param>
+            <returns>полученное значение</returns>
+        </member>
+        <member name="P:AsvTools.AsXMLItemReader.Reader">
+            <summary>
+            Возвращает основной Xml поток на котором создан AsXMLItemReader
+            </summary>
+        </member>
+        <member name="T:AsvTools.AsXMLItemWriter">
+            <summary>
+            Предоставляет набор методов и свойств для записи объектов в поток, который можно прочитать классом AsXMLItemReader
+            Позволяет сохранить типы: uint, int, string, bool, Size, Point, Enum, а также
+            массивы uint[], int[], List(string)
+            ВНИМАНИЕ!!! Все функции этого класса вызывают исключение при ошибках!
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.#ctor(System.Xml.XmlWriter)">
+            <summary>
+            Конструктор класса
+            </summary>
+            <param name="writer">Поток Xml для сохранения</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.MakeSection(System.String)">
+            <summary>
+            Создает в выходном потоке новую секцию
+            </summary>
+            <param name="name">имя секции</param>
+            <returns>поток для записи в секцию</returns>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.CloseLastSection">
+            <summary>
+            Закрывает текущую секцию
+            </summary>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteUInt(System.UInt32,System.String)">
+            <summary>
+            Записывает в поток  значение типа uint
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteInt(System.Int32,System.String)">
+            <summary>
+            Записывает в поток  значение типа int
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteString(System.String,System.String)">
+            <summary>
+            Записывает в поток  значение типа string
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteBool(System.Boolean,System.String)">
+            <summary>
+            Записывает в поток  значение типа bool
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteIntArray(System.String,System.Int32[])">
+            <summary>
+            Записывает в поток массив значений типа int[]
+            </summary>
+            <param name="nm">имя поля в потоке</param>
+            <param name="ibuf">массив значений</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteUIntArray(System.String,System.UInt32[])">
+            <summary>
+            Записывает в поток массив значений типа uint[]
+            </summary>
+            <param name="nm">имя поля в потоке</param>
+            <param name="ibuf">массив значений</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteStringArray(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Записывает в поток массив значений типа List(string)
+            </summary>
+            <param name="nm">имя поля в потоке</param>
+            <param name="sbuf">массив значений</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteSize(System.Drawing.Size,System.String)">
+            <summary>
+            Записывает в поток  значение типа System.Drawing.Size
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WritePoint(System.Drawing.Point,System.String)">
+            <summary>
+            Записывает в поток  значение типа System.Drawing.Point
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="M:AsvTools.AsXMLItemWriter.WriteEnum``1(``0,System.String)">
+            <summary>
+            Записывает в поток  значение типа Enum
+            </summary>
+            <param name="v">значение</param>
+            <param name="v_name">имя поля в потоке</param>
+        </member>
+        <member name="P:AsvTools.AsXMLItemWriter.Writer">
+            <summary>
+            Возвращает основной Xml поток на котором создан AsXMLItemWriter
+            </summary>
+        </member>
+        <member name="T:AsvTools.AsEnumParser`1">
+            <summary>
+            Вспомогательный класс для сериализации объекта типа enum.
+            Позволяет преобразовать значение в символьную строку и обратно
+            </summary>
+            <typeparam name="T">class производный от Enum</typeparam>
+        </member>
+        <member name="M:AsvTools.AsEnumParser`1.GetValue(System.String)">
+            <summary>
+            Восстановление значения объекта типа enum из символьной строки
+            </summary>
+            <param name="enumString">имя поля</param>
+            <returns>восстановленный объект, при ошибке вовращается значение по умолчанию для типа</returns>
+        </member>
+        <member name="M:AsvTools.AsEnumParser`1.GetName(`0)">
+            <summary>
+            Преобразование значения объекта типа enum в символьную строку
+            </summary>
+            <param name="en">значение объекта типа enum</param>
+            <returns>символная строка с именем</returns>
+        </member>
+        <member name="M:AsvTools.FileTools.GenerateTempNameFromFile(System.String)">
+            <summary>
+            Создание пути для временного файла
+            </summary>
+            <param name="path">Путь к файлу из чъего пути будет создан путь ко временному файлу</param>
+            <returns>Путь ко временному файлу</returns>
+        </member>
+        <member name="M:AsvTools.FileTools.CopyStream(System.IO.Stream,System.IO.Stream)">
+            <summary>
+            Копирует оставшееся содержимое одного потока в в другой.
+            Копирование идет от текущей позиции.
+            </summary>
+            <param name="input">входной поток</param>
+            <param name="output">выходной поток</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.FileTools.CopyStream(System.IO.Stream,System.IO.Stream,System.Int32)">
+            <summary>
+            Копирует часть содержимого одного потока в в другой.
+            Копирование идет от текущей позиции
+            </summary>
+            <param name="input">входной поток</param>
+            <param name="output">выходной поток</param>
+            <param name="len">количество копируемых байт</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.FileTools.SetDateToFile(System.String,System.DateTime)">
+            <summary>
+            Изменяет дату создания файла. 
+            Устанавливаются все поля (NTFS): CreationTime, LastWriteTime, LastAccessTime
+            </summary>
+            <param name="fn">путь к файлу</param>
+            <param name="dt">новая дата</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.FileTools.GetParts(System.String)">
+            <summary>
+            Разделяет входную строку, содержащую путь к файлу/папке на составляющие.
+            Учитывается только символ-разделитель '\'.
+            </summary>
+            <param name="ss">входная строка</param>
+            <returns>массив, содержащий все части (от корневого до последнего)</returns>
+        </member>
+        <member name="M:AsvTools.FileTools.RelativePath(System.String,System.String)">
+            <summary>
+            Конверсия полного пути в относительный.
+            В качестве исходного можно использовать и относительный путь.
+            </summary>
+            <param name="fn">исходный путь</param>
+            <param name="base_path">базовый путь, относительно которого формируется результат</param>
+            <returns>полученный относительный путь</returns>
+        </member>
+        <member name="P:AsvTools.ZOutputStream.TotalIn">
+            <summary> Returns the total number of bytes input so far.</summary>
+        </member>
+        <member name="P:AsvTools.ZOutputStream.TotalOut">
+            <summary> Returns the total number of bytes output so far.</summary>
+        </member>
+        <member name="P:AsvTools.ZInputStream.TotalIn">
+            <summary> Returns the total number of bytes input so far.</summary>
+        </member>
+        <member name="P:AsvTools.ZInputStream.TotalOut">
+            <summary> Returns the total number of bytes output so far.</summary>
+        </member>
+        <member name="T:AsvTools.BytesTool">
+            <summary>
+            Предоставляет методы для сохранения и восстановления типа UInt32 в байтовом буфере
+            </summary>
+        </member>
+        <member name="T:AsvTools.DirClass">
+            <summary>
+            Предоставляет методы для создания, копирования, удаления папок, а также для создания списка файлов в папке
+            </summary>
+        </member>
+        <member name="M:AsvTools.DirClass.GetFilesFromDirectory(System.String,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            Создает список файлов в папке
+            </summary>
+            <param name="path">папка для операций</param>
+            <param name="lst">список всех файлов</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.DirClass.GetFilesFromDirectory(System.String,System.String,System.Collections.Generic.List{System.String}@)">
+            <summary>
+            Создает список файлов в папке отфильтрованноый по маске
+            </summary>
+            <param name="path">папка для операций</param>
+            <param name="mask">маска имен файлов</param>
+            <param name="lst">список всех файлов, удовлетворяющих маске</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.DirClass.DeleteDirectory(System.String)">
+            <summary>
+            Удаление папки и всех подпапок. Удаляются также все файлы.
+            Если папка является символической ссылкой содержимое не удаляется, удаляется только ссылка
+            </summary>
+            <param name="path">путь</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.DirClass.DirectoryExists(System.String)">
+            <summary>
+            Проверяет наличие папки
+            </summary>
+            <param name="path">путь</param>
+            <returns>true приналичии папки, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.DirClass.CreateDirectory(System.String)">
+            <summary>
+            Создает все каталоги и подкаталоги, указанные в параметре path.
+            Если каталог уже существует, метод ничего не выполняет.
+            </summary>
+            <param name="path">путь</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.DirClass.MoveDirectory(System.String,System.String)">
+            <summary>
+            Перемещает файл или каталог со всем его содержимым в новое местоположение.
+            Если src_path является файлом, то параметр dst_path также должен быть именем файла.
+            Если конечная папка существует возникает ошибка
+            </summary>
+            <param name="src_path">исходный путь</param>
+            <param name="dst_path">конечная папка</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="M:AsvTools.DirClass.CopyDirectoryContents(System.String,System.String)">
+            <summary>
+            Копирует все файлы из одной папки в другую. Папки не копируются.
+            </summary>
+            <param name="src_path">исходный путь</param>
+            <param name="dst_path">конечная папка</param>
+            <returns>true при успешном выполнении, иначе - false</returns>
+        </member>
+        <member name="T:AsvTools.UserIOManager">
+            <summary>
+            Класс для взаимодействия с пользователем
+            </summary>
+        </member>
+        <member name="M:AsvTools.UserIOManager.RemoveSym(System.Text.StringBuilder,System.String,System.String)">
+            <summary>
+            Копирование символов, не входящих в строку "pattern". Удобно
+            для удаления пробелов, символов подчеркивания и.т.п
+            </summary>
+        </member>
+        <member name="M:AsvTools.SupportClass.Identity(System.Int64)">
+            <summary>
+            This method returns the literal value received
+            </summary>
+            <param name="literal">The literal to return</param>
+            <returns>The received value</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.Identity(System.UInt64)">
+            <summary>
+            This method returns the literal value received
+            </summary>
+            <param name="literal">The literal to return</param>
+            <returns>The received value</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.Identity(System.Single)">
+            <summary>
+            This method returns the literal value received
+            </summary>
+            <param name="literal">The literal to return</param>
+            <returns>The received value</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.Identity(System.Double)">
+            <summary>
+            This method returns the literal value received
+            </summary>
+            <param name="literal">The literal to return</param>
+            <returns>The received value</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.URShift(System.Int32,System.Int32)">
+            <summary>
+            Performs an unsigned bitwise right shift with the specified number
+            </summary>
+            <param name="number">Number to operate on</param>
+            <param name="bits">Ammount of bits to shift</param>
+            <returns>The resulting number from the shift operation</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.URShift(System.Int32,System.Int64)">
+            <summary>
+            Performs an unsigned bitwise right shift with the specified number
+            </summary>
+            <param name="number">Number to operate on</param>
+            <param name="bits">Ammount of bits to shift</param>
+            <returns>The resulting number from the shift operation</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.URShift(System.Int64,System.Int32)">
+            <summary>
+            Performs an unsigned bitwise right shift with the specified number
+            </summary>
+            <param name="number">Number to operate on</param>
+            <param name="bits">Ammount of bits to shift</param>
+            <returns>The resulting number from the shift operation</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.URShift(System.Int64,System.Int64)">
+            <summary>
+            Performs an unsigned bitwise right shift with the specified number
+            </summary>
+            <param name="number">Number to operate on</param>
+            <param name="bits">Ammount of bits to shift</param>
+            <returns>The resulting number from the shift operation</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.ReadInput(System.IO.Stream,System.Byte[],System.Int32,System.Int32)">
+            <summary>Reads a number of characters from the current source Stream and writes the data to the target array at the specified index.</summary>
+            <param name="sourceStream">The source Stream to read from.</param>
+            <param name="target">Contains the array of characteres read from the source Stream.</param>
+            <param name="start">The starting index of the target array.</param>
+            <param name="count">The maximum number of characters to read from the source Stream.</param>
+            <returns>The number of characters read. The number will be less than or equal to count depending on the data available in the source Stream. Returns -1 if the end of the stream is reached.</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.ReadInput(System.IO.TextReader,System.Byte[],System.Int32,System.Int32)">
+            <summary>Reads a number of characters from the current source TextReader and writes the data to the target array at the specified index.</summary>
+            <param name="sourceTextReader">The source TextReader to read from</param>
+            <param name="target">Contains the array of characteres read from the source TextReader.</param>
+            <param name="start">The starting index of the target array.</param>
+            <param name="count">The maximum number of characters to read from the source TextReader.</param>
+            <returns>The number of characters read. The number will be less than or equal to count depending on the data available in the source TextReader. Returns -1 if the end of the stream is reached.</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.ToByteArray(System.String)">
+            <summary>
+            Converts a string to an array of bytes
+            </summary>
+            <param name="sourceString">The string to be converted</param>
+            <returns>The new array of bytes</returns>
+        </member>
+        <member name="M:AsvTools.SupportClass.ToCharArray(System.Byte[])">
+            <summary>
+            Converts an array of bytes to an array of chars
+            </summary>
+            <param name="byteArray">The array of bytes to convert</param>
+            <returns>The new array of chars</returns>
+        </member>
+        <member name="T:AsvTools.PropertyManagerClass">
+            <summary>
+            Управление свойствами группы объектов Control
+            </summary>
+        </member>
+        <member name="M:AsvTools.PropertyManagerClass.SetProperty(System.String,System.Object)">
+            <summary>
+            Установка значения свойства по его имени
+            </summary>
+            <param name="_prop">имя свойства</param>
+            <param name="_param">значение</param>
+        </member>
+        <member name="M:AsvTools.SpZipV2.Save(System.String,System.Int32)">
+            <summary>
+            Сжатие файла
+            </summary>
+            <param name="path">Путь к файлу</param>
+            <param name="level">Уровень компрессии</param>
+            <returns>Истина, если все нормально</returns>
+        </member>
+        <member name="T:AsvTools.CmdLineTools">
+            <summary>
+            Класс для анализа командной строки программы
+            </summary>
+        </member>
+        <member name="T:AsvTools.IDBaseItem">
+            <summary>
+            Описание идентификатора чего-либо...
+            Добавьте в производный класс дополнительные авт. свойства
+            <para> Пример кода:</para>
+            <para>class MID : IDBaseItem</para>
+            <para>{</para>
+            public MID(int id, string name, string fs): base(id, name)
+            <para>{</para>
+            <para>  this.fs = fs;</para>
+            <para>}</para>
+            // автоматические свойства...
+            <para>public string fs { get; set; }</para>
+            <para>}</para>
+            </summary>
+            <remarks>Описание идентификатора чего-либо...
+            </remarks>
+        </member>
+        <member name="T:AsvTools.IDBaseControl`1">
+            <summary>
+            Управление идентификаторами чего-либо...
+            <para>Инициализация класса выполняется в Create()</para>
+            <para>Пример использования</para>
+            <para>class MID : IDBaseItem</para>
+            <para>{</para>
+            <para>public MID(int id, string name, string fs) : base(id, name)</para>
+            <para>{</para>
+            <para> this.fs = fs;</para>
+            <para>}</para>
+            <para>// автоматические свойства...</para>
+            <para>public string fs { get; set; }</para>
+            <para>}</para>
+            <para>class MIDControl : IDBaseControl&lt;MID&gt;</para>
+            <para>{</para>
+            <para>static MIDControl _obj = null;</para>
+            <para>protected override MID[] Create()</para>
+             <para>{</para>
+             <para> return new MID[] { new MID(0, "1 MID", "FS=1"), new MID(1, "2 MID", "FS=2") };</para>
+             <para>}</para>
+            <para>public static IDBaseControl&lt;MID&gt; Instance</para>
+            <para>{ get { if (_obj == null) _obj = new MIDControl(); return _obj;}}}</para>
+            </summary>
+        </member>
+    </members>
+</doc>

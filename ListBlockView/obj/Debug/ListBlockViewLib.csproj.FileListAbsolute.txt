@@ -1,0 +1,58 @@
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockView.baml
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockView.g.cs
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockViewLib_MarkupCompile.cache
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockViewLib.g.resources
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockViewLib.Properties.Resources.resources
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\GenerateResource.read.1.tlog
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\GenerateResource.write.1.tlog
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\bin\Debug\ListBlockViewLib.dll
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\bin\Debug\ListBlockViewLib.pdb
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockViewLib.dll
+D:\for me\Projects MS VS 2010\ListBlockView_WPFSolution\ListBlockView\obj\Debug\ListBlockViewLib.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\bin\Debug\ListBlockViewLib.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\bin\Debug\ListBlockViewLib.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockView.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockView.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib_MarkupCompile.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.g.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.Properties.Resources.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\GenerateResource.read.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\GenerateResource.write.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\bin\Debug\ListBlockViewLib.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\bin\Debug\ListBlockViewLib.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockView.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockView.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib_MarkupCompile.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.g.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.Properties.Resources.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\bin\Debug\ListBlockViewLib.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\bin\Debug\ListBlockViewLib.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockView.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockView.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib_MarkupCompile.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.g.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.Properties.Resources.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ListBlockView\obj\Debug\ListBlockViewLib.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\bin\Debug\ListBlockViewLib.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\bin\Debug\ListBlockViewLib.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockView.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockView.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockViewLib_MarkupCompile.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockViewLib.g.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockViewLib.Properties.Resources.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockViewLib.csproj.GenerateResource.Cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockViewLib.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ListBlockView\obj\Debug\ListBlockViewLib.pdb

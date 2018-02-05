@@ -1,0 +1,65 @@
+﻿<Window x:Class="DpkViewer.WinFormatView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:DpkViewer"
+        Title="Форматированный просмотр" Height="453" Width="582" WindowStartupLocation="CenterScreen" xmlns:my="clr-namespace:ListBlockViewLib;assembly=ListBlockViewLib" Icon="/DpkViewer;component/Resources/MainMenu/Operations/FormatView.ico">
+    <Window.Resources>
+        <Style x:Key="toolBarIconStyle" TargetType="Image">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="35"/>
+        </Style>
+        <Style x:Key="toolBarButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="50"/>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="loc:FormatViewCommands.OpenDescryptorFile" Executed="OpenDescryptorFile" />
+        <CommandBinding Command="loc:FormatViewCommands.Clear" Executed="Clear" />
+        <CommandBinding Command="loc:FormatViewCommands.SaveProtolocInTxt" Executed="SaveProtolocInTxt" />
+    </Window.CommandBindings>
+        <Grid>
+        <ToolBarTray Orientation="Horizontal" VerticalAlignment="Top">
+            <ToolBar>
+                <Button Name="bt_Open"
+                        ToolTip="Открыть файл с описателем формата вывода"
+                        Command="loc:FormatViewCommands.OpenDescryptorFile"
+                        Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" 
+                           Source="/DpkViewer;component/Resources/MainMenu/File/Open.ico" />
+                </Button>
+                <Button Name="bt_Clear"
+                        ToolTip="Сброс выбранного файла" 
+                        Command="loc:FormatViewCommands.Clear"
+                        Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" 
+                           Source="/DpkViewer;component/Resources/Other/Cancel.ico" />
+                </Button>
+                <Separator/>
+                <TextBlock Name="txtBlock_Status"
+                    TextWrapping="Wrap" TextAlignment="Center" Width="150" FontFamily="Courier New" FontWeight="Normal" FontSize="12">
+                    Статус:
+                    <LineBreak/>
+                    <Run Foreground="Yellow" TextDecorations="Underline">Не выбран файл</Run>
+                </TextBlock>
+                <Separator/>
+                <Button Name="bt_Save"
+                        ToolTip="Сохранить протокол в текстовом виде" 
+                        Command="loc:FormatViewCommands.SaveProtolocInTxt"
+                        Style="{StaticResource toolBarButtonStyle}" IsEnabled="False">
+                    <Image Style="{StaticResource toolBarIconStyle}" 
+                           Source="/DpkViewer;component/Resources/MainMenu/File/Save.ico" />
+                </Button>                
+            </ToolBar>
+        </ToolBarTray>
+        <my:ListBlockView Margin="12,52,12,37" Name="listBlockView_Protocol"/>
+        <StatusBar VerticalAlignment="Bottom">
+            <TextBlock TextWrapping="Wrap" TextAlignment="Right" FontFamily="Courier New" FontWeight="Normal" FontSize="11">
+                Файл с описателем
+                <LineBreak/>
+                формата вывода:
+            </TextBlock>
+            <Separator/>
+            <TextBlock Name="txtBlock_CurrentDescryptionFileName" TextAlignment="Center"/>
+        </StatusBar>
+    </Grid>
+</Window>

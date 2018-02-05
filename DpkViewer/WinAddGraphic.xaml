@@ -1,0 +1,41 @@
+﻿<Window x:Class="DpkViewer.WinAddGraphic"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:DpkViewer"
+        xmlns:converters="clr-namespace:DpkViewer.Converters"
+        Title="Добавление графика" Height="182" Width="236" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <converters:AddressStringConverter x:Key="AddressStringConverter"/>
+        <DataTemplate x:Key="AddressDataTemplate">
+            <TextBlock Text="{Binding Converter={StaticResource AddressStringConverter}}"/>
+        </DataTemplate>
+        <converters:NumBitStringConverter x:Key="NumBitStringConverter"/>
+        <DataTemplate x:Key="NumBitDataTemplate">
+            <TextBlock Text="{Binding Converter={StaticResource NumBitStringConverter}}"/>
+        </DataTemplate>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="loc:WinSetValueCommands.AcceptParametres" Executed="AcceptParametres" CanExecute="CanAcceptParametres" />
+        <CommandBinding Command="loc:WinSetValueCommands.CancelParametres" Executed="CancelParametres" />
+    </Window.CommandBindings>
+            <Grid>
+        <Label Content="Адрес:" Height="28" HorizontalAlignment="Left" Margin="42,12,0,0" VerticalAlignment="Top" Width="43" />
+        <Label Content="Номер бита:" Height="28" Margin="12,46,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="73" />
+        <ComboBox Height="28" Margin="91,12,12,0" Name="comboBox_Addresses" 
+                  VerticalAlignment="Top" ItemTemplate="{StaticResource AddressDataTemplate}"/>
+        <ComboBox Height="28" Margin="91,46,12,0" Name="comboBox_NumBits" 
+                  VerticalAlignment="Top" ItemTemplate="{StaticResource NumBitDataTemplate}"/>
+        <Button Command="loc:WinSetValueCommands.CancelParametres" Margin="0,0,12,8" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/DpkViewer;component/Resources/Other/Cancel.ico" />
+                <Label Content="Закрыть" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+        <Button Command="loc:WinSetValueCommands.AcceptParametres" Margin="12,0,0,8" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/DpkViewer;component/Resources/Other/SetValue.ico" />
+                <Label Content="Добавить" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+    </Grid>
+</Window>

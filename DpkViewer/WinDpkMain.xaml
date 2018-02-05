@@ -1,0 +1,185 @@
+﻿<Window x:Class="DpkViewer.WinDpkMain"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:DpkViewer"
+        Title="Просмотр протокола ДПК" Height="586" Width="660" 
+        Icon="/DpkViewer;component/DpkViewer.ico" WindowStartupLocation="CenterScreen" 
+        xmlns:my="clr-namespace:ListStringViewWPF;assembly=ListStringViewWPF" 
+        Closing="Window_Closing" MinWidth="460" MinHeight="400">
+    <Window.Resources>
+        <Style x:Key="menuIconStyle" TargetType="Image">
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="Width" Value="26"/>
+        </Style>
+        <Style x:Key="toolBarIconStyle" TargetType="Image">
+            <Setter Property="Height" Value="35"/>
+            <Setter Property="Width" Value="35"/>
+        </Style>
+        <Style x:Key="menuItemStyle" TargetType="MenuItem">
+            <Setter Property="Height" Value="22"/>
+        </Style>
+        <Style x:Key="toolBarButtonStyle" TargetType="Button">
+            <Setter Property="Width" Value="50"/>
+        </Style>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <!-- Файл -->
+        <CommandBinding Command="loc:MainCommands.OpenProtocolFile" Executed="OpenProtocolFile_Executed"/>
+        <CommandBinding Command="loc:MainCommands.Exit" Executed="Exit_Executed" />
+        <!-- Филтьрация -->
+        <CommandBinding Command="loc:MainCommands.FilterParametres" Executed="FilterParametres_Executed" />
+        <!-- Поиск -->
+        <CommandBinding Command="loc:MainCommands.Search" Executed="Search_Executed" />
+        <CommandBinding Command="loc:MainCommands.SearchPreviousError" Executed="SearchPreviousError" />
+        <CommandBinding Command="loc:MainCommands.SearchNextError" Executed="SearchNextError" />
+        <CommandBinding Command="loc:MainCommands.SearchPreviousSynchroImpulse" Executed="SearchPreviousSynchroImpulse" />
+        <CommandBinding Command="loc:MainCommands.SearchNextSynchroImpulse" Executed="SearchNextSynchroImpulse" />
+        <!-- Операции -->
+        <CommandBinding Command="loc:MainCommands.GraphicalAnalisys" Executed="GraphicalAnalisys" />
+        <CommandBinding Command="loc:MainCommands.FormatView" Executed="FormatView" />
+        <CommandBinding Command="loc:MainCommands.SaveProtocolAsTxt" Executed="SaveProtocolAsTxt" />
+        <!-- Справка -->
+        <CommandBinding Command="loc:MainCommands.AboutApp" Executed="AboutApp" />
+    </Window.CommandBindings>
+    <Grid>
+        <Menu VerticalAlignment="Top" Padding="1" Margin="1,1,1,0" HorizontalContentAlignment="Left" VerticalContentAlignment="Center">
+            <MenuItem Header="Файл" HorizontalContentAlignment="Center">
+                <MenuItem Command="loc:MainCommands.OpenProtocolFile" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/File/Open.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Command="loc:MainCommands.Exit" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/File/Exit.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Фильтрация" HorizontalContentAlignment="Center">
+                <MenuItem Command="loc:MainCommands.FilterParametres" Header="Параметры фильтрации" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Filtration/FilterParametres.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Name="menuItemFilterParametresSave" Header="Сохранить параметры" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Filtration/FilterSave.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="menuItemFilterParametresOpen" Header="Открыть параметры" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Filtration/FilterOpen.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Поиск" HorizontalContentAlignment="Center">
+                <MenuItem Command="loc:MainCommands.Search"  Header="Общий поиск" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/Search.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Command="loc:MainCommands.SearchPreviousError" Header="Найти предыдущую ошибку" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchPreviousError.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Command="loc:MainCommands.SearchNextError" Header="Найти следующую ошибку" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchNextError.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Command="loc:MainCommands.SearchPreviousSynchroImpulse" Header="Найти предыдущий синхроимпульс" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchPreviousSynchroImpulse.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Command="loc:MainCommands.SearchNextSynchroImpulse" Header="Найти следующий синхроимпульс" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchNextSynchroImpulse.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Операции" HorizontalContentAlignment="Center">
+                <MenuItem Command="loc:MainCommands.GraphicalAnalisys"  Header="Графический анализ" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Operations/GraphicalAnalisys.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Command="loc:MainCommands.FormatView" Header="Форматированный просмотр" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Operations/FormatView.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator />
+                <MenuItem Command="loc:MainCommands.SaveProtocolAsTxt" Name="menuItemSaveProtocolAsTxt" Header="Сохранить протокол, как *.txt" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Operations/SaveTxt.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Name="menuItemSaveProtocolAsHtml" Header="Сохранить протокол, как *.html" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Operations/SaveHtml.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="Справка" HorizontalContentAlignment="Center">
+                <MenuItem Name="menuItemHelp"  Header="Помощь" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Help/Help.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Command="loc:MainCommands.AboutApp" Name="menuItemAboutApp" Header="О программе" Style="{StaticResource menuItemStyle}">
+                    <MenuItem.Icon>
+                        <Image Style="{StaticResource menuIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Help/AboutApp.ico" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <ToolBarTray Margin="1,30,1,0" Orientation="Horizontal" VerticalAlignment="Top">
+            <ToolBar>
+                <Button Command="loc:MainCommands.OpenProtocolFile" ToolTip="Открыть протокол" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/File/Open.ico" />
+                </Button>
+                <Separator/>
+                <Button Command="loc:MainCommands.FilterParametres" ToolTip="Параметры фильтрации" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Filtration/FilterParametres.ico" />
+                </Button>
+                <Separator/>
+                <Button Command="loc:MainCommands.Search" ToolTip="Поиск" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/Search.ico" />
+                </Button>
+                <Button Command="loc:MainCommands.SearchPreviousError" ToolTip="Предыдущая ошибка" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchPreviousError.ico" />
+                </Button>
+                <Button Command="loc:MainCommands.SearchNextError" ToolTip="Следующая ошибка" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchNextError.ico" />
+                </Button>
+                <Button Command="loc:MainCommands.SearchPreviousSynchroImpulse" ToolTip="Предыдущий синхроимпульс" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchPreviousSynchroImpulse.ico" />
+                </Button>
+                <Button Command="loc:MainCommands.SearchNextSynchroImpulse" ToolTip="Следующий синхроимпульс" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Search/SearchNextSynchroImpulse.ico" />
+                </Button>
+                <Separator/>
+                <Button Command="loc:MainCommands.GraphicalAnalisys" ToolTip="Графический анализ" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Operations/GraphicalAnalisys.ico" />
+                </Button>
+                <Button Command="loc:MainCommands.FormatView" ToolTip="Форматированный просмотр" Style="{StaticResource toolBarButtonStyle}">
+                    <Image Style="{StaticResource toolBarIconStyle}" Source="/DpkViewer;component/Resources/MainMenu/Operations/FormatView.ico" />
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <StatusBar VerticalAlignment="Bottom" Margin="1,0">
+            <Image Height="30" Source="/DpkViewer;component/Resources/MainMenu/Other/FileDpkLog.ico" />
+            <Label Content="Файл:"/>
+            <TextBlock HorizontalAlignment="Right" Name="textBlock_CurrentNameFile" VerticalAlignment="Top" />
+        </StatusBar>
+        <my:ListStringView Margin="12,82,12,42" Name="listStringViewDpkWords" 
+                           ShadowColor="Black">
+        </my:ListStringView>     
+    </Grid>
+</Window>

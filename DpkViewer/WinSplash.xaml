@@ -1,0 +1,21 @@
+﻿<Window x:Class="DpkViewer.WinSplash"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WinSplash" Height="205" Width="255" WindowStyle="None" Topmost="True" WindowStartupLocation="CenterOwner" Icon="/DpkViewer;component/DpkViewer.ico" ShowInTaskbar="False">
+    <Grid>
+        <TextBlock Height="42" Margin="0,12,12,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="133" FontSize="18" FontWeight="Bold">
+            Пожалуйста,
+            <LineBreak/>
+            подождите...
+        </TextBlock>
+        <Image Source="/DpkViewer;component/DpkViewer.ico" Margin="12,12,0,0" HorizontalAlignment="Left" Width="70" Height="70" VerticalAlignment="Top" />
+        <TextBlock Height="63" Margin="12,0,12,12"  VerticalAlignment="Bottom">
+            <Run FontSize="16">"Просмотр протокола ДПК"</Run>
+            <LineBreak/>
+            <LineBreak/>
+            АО "Авиаавтоматика им. В.В.Тарасова"
+            <LineBreak/>
+            (c) Колосов В.В. - декабрь 2015 г.
+        </TextBlock>
+    </Grid>
+</Window>

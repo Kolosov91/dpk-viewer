@@ -1,0 +1,86 @@
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ControlsLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ControlsLibrary.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\asvtls_v4.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\DpkViewerTools.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\DpkViewerTools.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\asvtls_v4.xml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\BinView.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\BinView.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\DpkView.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.lref
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\DpkView.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.g.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.Properties.Resources.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ControlsLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ControlsLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\asvtls_v4.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\DpkViewerTools.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\DpkViewerTools.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\asvtls_v4.xml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\BinView.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\BinView.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\DpkView.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.lref
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\DpkView.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.g.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.Properties.Resources.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ControlsLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ControlsLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\asvtls_v4.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\DpkViewerTools.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\DpkViewerTools.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\asvtls_v4.xml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\BinView.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\BinView.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\DpkView.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.lref
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\DpkView.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.g.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.Properties.Resources.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\ControlsLibrary\obj\Debug\ControlsLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\ControlsLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\ControlsLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\DpkViewerTools.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\DpkViewerTools.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\asvtls_v4.xml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\bin\Debug\ConstructGraphicLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\BinView.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\BinView.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\DpkView.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary_MarkupCompile.lref
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\DpkView.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary.g.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary.Properties.Resources.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary.csproj.GenerateResource.Cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\ControlsLibrary\obj\Debug\ControlsLibrary.pdb

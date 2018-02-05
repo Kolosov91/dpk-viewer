@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="ConstructGraphicLibrary.HorizontalTimeScrollBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="150" MinWidth="150" MinHeight="30">
+    <Grid>
+        <RepeatButton Name="btScrollLeft" HorizontalAlignment="Left" Width="30" Click="btScrollLeft_Click">       
+            <Image Source="/ConstructGraphicLibrary;component/Resources/Previous.ico" />
+        </RepeatButton>
+        <RepeatButton Name="btScrollRight" HorizontalAlignment="Right" Width="30" Click="btScrollRight_Click"> 
+            <Image Source="/ConstructGraphicLibrary;component/Resources/Next.ico" />
+        </RepeatButton>
+    </Grid>
+</UserControl>

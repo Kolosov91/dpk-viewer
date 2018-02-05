@@ -1,0 +1,178 @@
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewer.exe
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewer.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\asvtls_v4.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ConstructGraphicLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ControlsLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewerTools.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListBlockViewLib.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListStringViewWPF.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ConstructGraphicLibrary.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ControlsLibrary.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewerTools.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListBlockViewLib.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListStringViewWPF.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\asvtls_v4.xml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSplash.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinAddGraphic.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinChooseAddresses.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFilter.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinDpkMain.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFormatView.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinResultSearch.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSearch.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSetValue.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSplash.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewerApp.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.lref
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinAddGraphic.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinChooseAddresses.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFilter.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinDpkMain.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFormatView.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinResultSearch.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSearch.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSetValue.baml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.g.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.Properties.Resources.resources
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.exe
+D:\for me\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.exe
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewer.exe
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewer.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\asvtls_v4.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ControlsLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewerTools.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListBlockViewLib.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListStringViewWPF.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ControlsLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewerTools.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListBlockViewLib.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\ListStringViewWPF.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\bin\Debug\asvtls_v4.xml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSplash.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinAddGraphic.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinChooseAddresses.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFilter.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinDpkMain.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFormatView.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinResultSearch.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSearch.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSetValue.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSplash.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewerApp.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.lref
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinAddGraphic.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinChooseAddresses.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFilter.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinDpkMain.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFormatView.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinResultSearch.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSearch.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSetValue.baml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.g.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.Properties.Resources.resources
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.exe
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewer.exe
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewer.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\asvtls_v4.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ControlsLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewerTools.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ListBlockViewLib.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ListStringViewWPF.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ControlsLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\DpkViewerTools.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ListBlockViewLib.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\ListStringViewWPF.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\bin\Debug\asvtls_v4.xml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSplash.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinAddGraphic.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinChooseAddresses.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFilter.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinDpkMain.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFormatView.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinResultSearch.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSearch.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSetValue.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSplash.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewerApp.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.lref
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinAddGraphic.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinChooseAddresses.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFilter.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinDpkMain.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinFormatView.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinResultSearch.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSearch.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\WinSetValue.baml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.g.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\DpkViewer.Properties.Resources.resources
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\Projects_VS_2010\DpkViewerSolution\DpkViewer\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer.exe
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\DpkViewer.exe
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\DpkViewer.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ConstructGraphicLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ControlsLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\DpkViewerTools.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ListBlockViewLib.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ListStringViewWPF.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ConstructGraphicLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ControlsLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\DpkViewerTools.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ListBlockViewLib.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\ListStringViewWPF.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\bin\Debug\asvtls_v4.xml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer.csprojResolveAssemblyReference.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinSplash.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinAddGraphic.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinChooseAddresses.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinFilter.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinDpkMain.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinFormatView.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinResultSearch.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinSearch.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinSetValue.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinSplash.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewerApp.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer_MarkupCompile.lref
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinAddGraphic.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinChooseAddresses.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinFilter.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinDpkMain.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinFormatView.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinGraphicalAnalisys.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinResultSearch.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinSearch.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\WinSetValue.baml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer.g.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer.Properties.Resources.resources
+C:\Users\Zver\Documents\GitHub\dpk-viewer\DpkViewer\obj\x86\Debug\DpkViewer.csproj.GenerateResource.Cache

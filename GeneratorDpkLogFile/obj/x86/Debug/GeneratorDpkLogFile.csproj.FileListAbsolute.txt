@@ -1,0 +1,43 @@
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.exe
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\asvtls_v4.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.dll
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\asvtls_v4.xml
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.pdb
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.exe
+D:\for me\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.exe
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\asvtls_v4.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\asvtls_v4.xml
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.exe
+D:\Projects\Projects MS VS 2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.exe
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\asvtls_v4.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.dll
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\asvtls_v4.xml
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.pdb
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.exe
+D:\Projects\Projects_VS_2010\DpkViewerSolution\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.exe
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\GeneratorDpkLogFile.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.dll
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\DpkViewerTools.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\asvtls_v4.xml
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\bin\Debug\ConstructGraphicLibrary.pdb
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.csprojResolveAssemblyReference.cache
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.exe
+C:\Users\Zver\Documents\GitHub\dpk-viewer\GeneratorDpkLogFile\obj\x86\Debug\GeneratorDpkLogFile.pdb

@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A7310853-4DFA-4035-B584-F9DD36AC4BB8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DpkViewer</RootNamespace>
+    <AssemblyName>DpkViewer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>DpkViewer.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="asvtls_v4">
+      <HintPath>..\..\..\..\LIB\NET_C4\asvtls_v4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="DpkViewerApp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Converters\AddressStringConverter.cs" />
+    <Compile Include="Converters\NumBitStringConverter.cs" />
+    <Compile Include="Converters\TimeMarkConverter.cs" />
+    <Compile Include="Converters\TimeSpanConverter.cs" />
+    <Compile Include="WinAddGraphic.xaml.cs">
+      <DependentUpon>WinAddGraphic.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinChooseAddresses.xaml.cs">
+      <DependentUpon>WinChooseAddresses.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinFilter.xaml.cs">
+      <DependentUpon>WinFilter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinFormatView.xaml.cs">
+      <DependentUpon>WinFormatView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinGraphicalAnalisys.xaml.cs">
+      <DependentUpon>WinGraphicalAnalisys.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinResultSearch.xaml.cs">
+      <DependentUpon>WinResultSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinSearch.xaml.cs">
+      <DependentUpon>WinSearch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinSetValue.xaml.cs">
+      <DependentUpon>WinSetValue.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WinSplash.xaml.cs">
+      <DependentUpon>WinSplash.xaml</DependentUpon>
+    </Compile>
+    <Page Include="WinAddGraphic.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinChooseAddresses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinFilter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinDpkMain.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="DpkViewerApp.xaml.cs">
+      <DependentUpon>DpkViewerApp.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WinDpkMain.xaml.cs">
+      <DependentUpon>WinDpkMain.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="WinFormatView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinGraphicalAnalisys.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinResultSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinSearch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinSetValue.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WinSplash.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DpkViewer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\Other\FileDpkLog.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\File\Exit.ico" />
+    <Resource Include="Resources\MainMenu\File\Open.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\Filtration\FilterOpen.ico" />
+    <Resource Include="Resources\MainMenu\Filtration\FilterParametres.ico" />
+    <Resource Include="Resources\MainMenu\Filtration\FilterSave.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\Search\Search.ico" />
+    <Resource Include="Resources\MainMenu\Search\SearchNextError.ico" />
+    <Resource Include="Resources\MainMenu\Search\SearchNextSynchroImpulse.ico" />
+    <Resource Include="Resources\MainMenu\Search\SearchPreviousError.ico" />
+    <Resource Include="Resources\MainMenu\Search\SearchPreviousSynchroImpulse.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\Operations\GraphicalAnalisys.ico" />
+    <Resource Include="Resources\MainMenu\Operations\SaveHtml.ico" />
+    <Resource Include="Resources\MainMenu\Operations\SaveTxt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\Help\AboutApp.ico" />
+    <Resource Include="Resources\MainMenu\Help\Help.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConstructGraphicLibrary\ConstructGraphicLibrary.csproj">
+      <Project>{EF40E85C-5630-4433-9A6F-B9F9CF31D050}</Project>
+      <Name>ConstructGraphicLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ControlsLibrary\ControlsLibrary.csproj">
+      <Project>{A600EF55-3766-47D5-ABB8-013A9AC0A3EF}</Project>
+      <Name>ControlsLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DpkViewerTools\DpkViewerTools.csproj">
+      <Project>{DD0D10AE-98F8-474F-98A0-BB1B6804E5D1}</Project>
+      <Name>DpkViewerTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListBlockView\ListBlockViewLib.csproj">
+      <Project>{FA68E21F-BE6D-44BA-AA07-172284590C72}</Project>
+      <Name>ListBlockViewLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ListStringViewWPF\ListStringViewWPF.csproj">
+      <Project>{9AA3063D-E28A-400C-9E0F-553A53424B30}</Project>
+      <Name>ListStringViewWPF</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Cancel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Next.ico" />
+    <Resource Include="Resources\Other\Previous.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\ChooseAll.ico" />
+    <Resource Include="Resources\Other\ClearAll.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\SetValue.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Attention.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Minus.ico" />
+    <Resource Include="Resources\Other\Plus.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Mark.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Interval.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\RemoveMark.ico" />
+    <Resource Include="Resources\Other\SetInterval.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Other\Approximation.ico" />
+    <Resource Include="Resources\Other\NoApproximation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Описание.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\Operations\FormatView.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\MainMenu\File\Save.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
